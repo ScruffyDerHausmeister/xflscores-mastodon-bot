@@ -113,9 +113,9 @@ class Scoreboard:
 
 	def getTags(self):
 		if self.temporadaTipo==3:
-			tags=f"#xfl #xfl2023 #xflfootball #xflplayoffs #playoffs #football #xflmastodon\n"	
+			tags=f"#xfl #xfl2023 #xflfootball #sport1xfl #xflplayoffs #playoffs #football #xflmastodon\n"	
 		else:
-			tags=f"#xfl #xfl2023 #xflfootball #football \n"
+			tags=f"#xfl #xfl2023 #xflfootball #sport1xfl #football \n"
 		return tags
 
 	def necesitaContentWarning(self):
