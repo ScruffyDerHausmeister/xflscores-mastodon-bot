@@ -136,13 +136,8 @@ O simplemente creando un issue 😊
 
 - 😯 Creando un issue [aquí](https://gitlab.com/noroute2host/nflscores-mastodon-bot/-/issues)
 
-## Donate
-
-You can send **Bitcoin** donations to the following address to support FIFA World Cup Scoreboard Mastodon Bot:
-
-![fifaworldcupscores donate](imgs/btc-donations.png)
-
-1KsBBAPidWCpf8rVSLjyjoRNg3b5jdsJ1q
+## Donation
+[..]
 
 ## Licencia
 
