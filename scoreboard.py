@@ -38,17 +38,17 @@ class Scoreboard:
 		# Imprimir listas si tienen algun elemento
 		
 		if len(self.partidosFin) > 0:
-		    partidosFinStr=f"Ended Games:\n"
+		    partidosFinStr=f"Ended games:\n"
 		    for pf in self.partidosFin:
 		        partidosFinStr=f"{partidosFinStr}{pf}\n"
 		        
 		if len(self.partidosEnCurso) > 0:
-		    partidosEnCursoStr=f"Running Games:\n"
+		    partidosEnCursoStr=f"Running games:\n"
 		    for pec in self.partidosEnCurso:
 		        partidosEnCursoStr=f"{partidosEnCursoStr}{pec}\n"
 		        
 		if len(self.partidosSinComenzar) > 0:
-		    partidosSinComenzarStr=f"Upcoming Games:\n"
+		    partidosSinComenzarStr=f"Upcoming games:\n"
 		    for psc in self.partidosSinComenzar:
 		        partidosSinComenzarStr=f"{partidosSinComenzarStr}{psc}\n"	       
 		
@@ -106,16 +106,16 @@ class Scoreboard:
 	# Metodos para obtener encabezado y tags. TemporadaTipo 3 es PostSeason
 	def getEncabezado(self):
 		if self.temporadaTipo==3:
-			encabezado=f"#{self.liga} #Playoffs {self.jornada} Scores: \n"
+			encabezado=f"#{self.liga} #Playoffs {self.jornada} scores: \n"
 		else:
-			encabezado=f"#{self.liga} Week {self.jornada} Scores: \n"
+			encabezado=f"#{self.liga} week {self.jornada} scores: \n"
 		return encabezado
 
 	def getTags(self):
 		if self.temporadaTipo==3:
-			tags=f"#xfl #xfl2023 #xflfootball #sport1xfl #xflplayoffs #playoffs #football #xflmastodon\n"	
+			tags=f"#xfl2023 #xflfootball #sport1xfl #xflplayoffs #playoffs #football #xflmastodon\n"	
 		else:
-			tags=f"#xfl #xfl2023 #xflfootball #sport1xfl #football \n"
+			tags=f"#xfl2023 #xflfootball #sport1xfl #football \n"
 		return tags
 
 	def necesitaContentWarning(self):
