@@ -24,7 +24,7 @@ Actualmente este bot está funcionando en la cuenta de Mastodon https://mastodon
 
 ![nflscores bot en tusky](imgs/nflscores_tusky.jpg)
 
-La API usada para la obtención de los datos es la de ESPN: http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+La API usada para la obtención de los datos es la de ESPN: http://site.api.espn.com/apis/site/v2/sports/football/xfl/scoreboard
 
 Las motivaciones han sido, dar información deportiva en Mastodon que escasea bastante por un lado, y por otro, aprender algo de Python así como a desarrollar bots para Mastodon. Todo esto en un momento en qué la unica posibilidad para hacer algo de este tipo para mí era el uso de mi smartphone.
 
