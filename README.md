@@ -75,7 +75,7 @@ El fichero de configuración deberá ser llamado `config.conf` y tiene este form
 
 ```ini
 [API]
-API_URL_SCB = http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+API_URL_SCB = http://site.api.espn.com/apis/site/v2/sports/football/xfl/scoreboard
 
 [MASTODON]
 ACCESS_TOKEN = TOKENSUPERSECRETO
