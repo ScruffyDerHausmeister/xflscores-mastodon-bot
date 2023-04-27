@@ -30,11 +30,8 @@ class RecolectorESPN:
 
 	def obtenerRondaPlayoffs(self,weekNum):
 		switcher = {
-			1: 'Wild Card',
-			2: 'Divisional Round',
-			3: 'Conference Championship',
-			4: 'Pro Bowl',
-			5: 'Super Bowl'
+			1: 'Semifinals',
+                        2: 'Championships'
 		}
 
 		return switcher.get(weekNum, "Unknown Round")
